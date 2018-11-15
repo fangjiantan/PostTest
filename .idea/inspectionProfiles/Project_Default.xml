@@ -6,6 +6,7 @@
         <list>
           <option value="result_statistics" />
           <option value="Testpostcase.com_logger" />
+          <option value="common.base_api.*" />
         </list>
       </option>
     </inspection_tool>
