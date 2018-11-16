@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-11-15 18:22:56</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.937000</p>
-<p class='attribute'><strong>Status:</strong> Pass 3</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-11-16 16:27:05</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:01.374000</p>
+<p class='attribute'><strong>Status:</strong> Pass 6</p>
 
 <p class='description'>用例执行情况</p>
 </div>
@@ -223,11 +223,11 @@ function showOutput(id, name) {
 
 <tr class='passClass'>
     <td>test_api.Test_api</td>
-    <td>3</td>
-    <td>3</td>
+    <td>6</td>
+    <td>6</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',6)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
@@ -250,10 +250,10 @@ pt1.1: 请求头部：{'VALUE': 'application/json', 'KEY': 'Content-Type'}
 请求方式：post，请求url：http://api.chebaotec.com/washingmanage/n/login
 请求params：None
 post请求body类型为：json,body内容为：{"account": "admin", "password": "yingshitec2018@"}
-页面返回信息：{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542277213672,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
+页面返回信息：{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542356660600,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
 用例测试结果： DL_1----&gt;pass
 检查点-&gt;:广东赢时科技有限公司
-返回实际结果-&gt;:{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542277213672,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
+返回实际结果-&gt;:{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542356660600,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
 
 
         </pre>
@@ -282,10 +282,10 @@ pt1.2: ******正在执行用例：-----总览_G1-----******
 请求方式：get，请求url：http://api.chebaotec.com/washingmanage/n/business/device/month?pageIndex=1&amp;pageSize=3
 请求params：{'pageIndex': '1', 'pageSize': '3'}
 get
-页面返回信息：{"data":{"firstIndex":1,"items":[{"month":"2018-10","device":2},{"month":"2018-09","device":6},{"month":"2018-08","device":36}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":7},"rcode":0,"rinfo":"操作成功"}
+页面返回信息：{"data":{"firstIndex":1,"items":[{"month":"2018-11","device":1},{"month":"2018-10","device":2},{"month":"2018-09","device":6}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":8},"rcode":0,"rinfo":"操作成功"}
 用例测试结果： 总览_G1----&gt;pass
 检查点-&gt;:操作成功
-返回实际结果-&gt;:{"data":{"firstIndex":1,"items":[{"month":"2018-10","device":2},{"month":"2018-09","device":6},{"month":"2018-08","device":36}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":7},"rcode":0,"rinfo":"操作成功"}
+返回实际结果-&gt;:{"data":{"firstIndex":1,"items":[{"month":"2018-11","device":1},{"month":"2018-10","device":2},{"month":"2018-09","device":6}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":8},"rcode":0,"rinfo":"操作成功"}
 
 
         </pre>
@@ -327,10 +327,106 @@ get
     </td>
 </tr>
 
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_api_4: dict() -> new empty dictionary</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: ******正在执行用例：-----总览_G3-----******
+请求方式：get，请求url：http://api.chebaotec.com/washingmanage/n/business/index/countdata?formType=week
+请求params：None
+get
+页面返回信息：{"data":[{"time":"5","user":"2"},{"time":"6","user":"3"},{"time":"9","user":"8"},{"device":"3","fund":"209.50","order":"49","time":"10","user":"31"},{"fund":"70.00","order":"16","time":"11","user":"30"},{"device":"19","fund":"146.10","order":"53","time":"12","user":"27"},{"device":"33","fund":"404.43","order":"191","time":"13","user":"82"},{"fund":"286.00","order":"68","time":"14","user":"50"},{"fund":"288.03","order":"91","time":"15","user":"25"},{"fund":"333.09","order":"108","time":"16","user":"34"},{"fund":"285.00","order":"87","time":"17","user":"56"},{"device":"6","fund":"988.55","order":"254","time":"18","user":"225"},{"fund":"1127.92","order":"320","time":"19","user":"110"},{"device":"8","fund":"1551.37","order":"480","time":"20","user":"270"},{"fund":"1282.01","order":"389","time":"21","user":"109"},{"fund":"1405.02","order":"356","time":"22","user":"122"},{"fund":"1477.53","order":"406","time":"23","user":"67"},{"fund":"1122.54","order":"322","time":"24","user":"56"},{"device":"19","fund":"1457.50","order":"372","time":"25","user":"146"},{"fund":"1704.52","order":"481","time":"26","user":"142"},{"device":"2","fund":"1374.02","order":"392","time":"27","user":"109"},{"device":"3","fund":"1282.00","order":"364","time":"28","user":"128"},{"device":"7","fund":"880.03","order":"258","time":"29","user":"106"},{"device":"10","fund":"938.00","order":"290","time":"30","user":"104"},{"device":"12","fund":"1195.00","order":"350","time":"31","user":"175"},{"device":"2","fund":"2004.00","order":"434","time":"32","user":"137"},{"device":"2","fund":"2328.00","order":"446","time":"33","user":"109"},{"device":"12","fund":"2346.50","order":"351","time":"34","user":"87"},{"device":"10","fund":"3386.02","order":"565","time":"35","user":"333"},{"device":"5","fund":"1824.54","order":"345","time":"36","user":"185"},{"device":"1","fund":"1.67","order":"26","time":"37"},{"fund":"22.00","order":"2","time":"39"},{"fund":"0.01","order":"1","time":"42","user":"1"},{"device":"2","fund":"0.00","order":"11","time":"43","user":"4"},{"fund":"140.05","order":"35","time":"45","user":"3"},{"device":"1","fund":"296.55","order":"50","time":"46"}],"rcode":0,"rinfo":"操作成功"}
+用例测试结果： 总览_G3----&gt;pass
+检查点-&gt;:操作成功
+返回实际结果-&gt;:{"data":[{"time":"5","user":"2"},{"time":"6","user":"3"},{"time":"9","user":"8"},{"device":"3","fund":"209.50","order":"49","time":"10","user":"31"},{"fund":"70.00","order":"16","time":"11","user":"30"},{"device":"19","fund":"146.10","order":"53","time":"12","user":"27"},{"device":"33","fund":"404.43","order":"191","time":"13","user":"82"},{"fund":"286.00","order":"68","time":"14","user":"50"},{"fund":"288.03","order":"91","time":"15","user":"25"},{"fund":"333.09","order":"108","time":"16","user":"34"},{"fund":"285.00","order":"87","time":"17","user":"56"},{"device":"6","fund":"988.55","order":"254","time":"18","user":"225"},{"fund":"1127.92","order":"320","time":"19","user":"110"},{"device":"8","fund":"1551.37","order":"480","time":"20","user":"270"},{"fund":"1282.01","order":"389","time":"21","user":"109"},{"fund":"1405.02","order":"356","time":"22","user":"122"},{"fund":"1477.53","order":"406","time":"23","user":"67"},{"fund":"1122.54","order":"322","time":"24","user":"56"},{"device":"19","fund":"1457.50","order":"372","time":"25","user":"146"},{"fund":"1704.52","order":"481","time":"26","user":"142"},{"device":"2","fund":"1374.02","order":"392","time":"27","user":"109"},{"device":"3","fund":"1282.00","order":"364","time":"28","user":"128"},{"device":"7","fund":"880.03","order":"258","time":"29","user":"106"},{"device":"10","fund":"938.00","order":"290","time":"30","user":"104"},{"device":"12","fund":"1195.00","order":"350","time":"31","user":"175"},{"device":"2","fund":"2004.00","order":"434","time":"32","user":"137"},{"device":"2","fund":"2328.00","order":"446","time":"33","user":"109"},{"device":"12","fund":"2346.50","order":"351","time":"34","user":"87"},{"device":"10","fund":"3386.02","order":"565","time":"35","user":"333"},{"device":"5","fund":"1824.54","order":"345","time":"36","user":"185"},{"device":"1","fund":"1.67","order":"26","time":"37"},{"fund":"22.00","order":"2","time":"39"},{"fund":"0.01","order":"1","time":"42","user":"1"},{"device":"2","fund":"0.00","order":"11","time":"43","user":"4"},{"fund":"140.05","order":"35","time":"45","user":"3"},{"device":"1","fund":"296.55","order":"50","time":"46"}],"rcode":0,"rinfo":"操作成功"}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_api_5: dict() -> new empty dictionary</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        pass</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: ******正在执行用例：-----总览_G4-----******
+请求方式：get，请求url：http://api.chebaotec.com/washingmanage/n/business/index/count
+请求params：None
+get
+页面返回信息：{"data":{"todayPlatformAmount":3901,"yesterdayPlatformAmount":7800,"yesterdayPlatformBuyPrice":0,"countUser":3076,"yesterdayPlatformRealAmount":7800,"todayPlatformRealAmount":3900,"allPlatformBuyPrice":66003,"yesterdayPlatformTimeoutAmount":0,"countDevice":157,"allPlatformAmount":2886749,"countOrder":7963,"todayPlatformTimeoutAmount":1,"todayPlatformBuyPrice":0,"allPlatformRealAmount":2735785,"allPlatformTimeoutAmount":84961},"rcode":0,"rinfo":"操作成功"}
+用例测试结果： 总览_G4----&gt;pass
+检查点-&gt;:操作成功
+返回实际结果-&gt;:{"data":{"todayPlatformAmount":3901,"yesterdayPlatformAmount":7800,"yesterdayPlatformBuyPrice":0,"countUser":3076,"yesterdayPlatformRealAmount":7800,"todayPlatformRealAmount":3900,"allPlatformBuyPrice":66003,"yesterdayPlatformTimeoutAmount":0,"countDevice":157,"allPlatformAmount":2886749,"countOrder":7963,"todayPlatformTimeoutAmount":1,"todayPlatformBuyPrice":0,"allPlatformRealAmount":2735785,"allPlatformTimeoutAmount":84961},"rcode":0,"rinfo":"操作成功"}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_api_6: dict() -> new empty dictionary</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        pass</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: ******正在执行用例：-----总览_G5-----******
+请求方式：get，请求url：http://api.chebaotec.com/washingmanage/n/business/amount/month?pageIndex=1&amp;pageSize=3
+请求params：{'pageIndex': '1', 'pageSize': '3'}
+get
+页面返回信息：{"data":{"firstIndex":1,"items":[{"amount":11677,"month":"2018-11"},{"amount":2219,"month":"2018-10"},{"amount":90657,"month":"2018-09"}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":9},"rcode":0,"rinfo":"操作成功"}
+用例测试结果： 总览_G5----&gt;pass
+检查点-&gt;:操作成功
+返回实际结果-&gt;:{"data":{"firstIndex":1,"items":[{"amount":11677,"month":"2018-11"},{"amount":2219,"month":"2018-10"},{"amount":90657,"month":"2018-09"}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":9},"rcode":0,"rinfo":"操作成功"}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
 <tr id='total_row'>
     <td>Total</td>
-    <td>3</td>
-    <td>3</td>
+    <td>6</td>
+    <td>6</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
