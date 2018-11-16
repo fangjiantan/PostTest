@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-11-15 15:24:04</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.452000</p>
-<p class='attribute'><strong>Status:</strong> Pass 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-11-15 18:22:56</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.937000</p>
+<p class='attribute'><strong>Status:</strong> Pass 3</p>
 
 <p class='description'>用例执行情况</p>
 </div>
@@ -223,11 +223,11 @@ function showOutput(id, name) {
 
 <tr class='passClass'>
     <td>test_api.Test_api</td>
-    <td>2</td>
-    <td>2</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
@@ -246,14 +246,14 @@ function showOutput(id, name) {
         <pre>
         
 pt1.1: 请求头部：{'VALUE': 'application/json', 'KEY': 'Content-Type'}
-******正在执行用例：-----d_1-----******
+******正在执行用例：-----DL_1-----******
 请求方式：post，请求url：http://api.chebaotec.com/washingmanage/n/login
 请求params：None
 post请求body类型为：json,body内容为：{"account": "admin", "password": "yingshitec2018@"}
-页面返回信息：{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542266481801,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
-用例测试结果： d_1----&gt;pass
+页面返回信息：{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542277213672,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
+用例测试结果： DL_1----&gt;pass
 检查点-&gt;:广东赢时科技有限公司
-返回实际结果-&gt;:{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542266481801,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
+返回实际结果-&gt;:{"data":{"module":[],"user":{"account":"admin","companyName":"广东赢时科技有限公司","createTime":1471596422000,"createrId":"123","createrName":"管理员","email":"tjhua@yingshitec.com","lastLoginTime":1542277213672,"mobile":"18825173880","orderNum":1,"password":"555edfb1629ddd5165674ceb709fa63c","passwordSalt":"in9sgin02jfgaoay8ww7rt3lzfa40vkfa130dwks","status":"1","userId":"201609051416438846874940123801","userName":"管理员"}},"rcode":0,"rinfo":"操作成功"}
 
 
         </pre>
@@ -278,12 +278,12 @@ post请求body类型为：json,body内容为：{"account": "admin", "password": 
         </div>
         <pre>
         
-pt1.2: ******正在执行用例：-----d_2-----******
+pt1.2: ******正在执行用例：-----总览_G1-----******
 请求方式：get，请求url：http://api.chebaotec.com/washingmanage/n/business/device/month?pageIndex=1&amp;pageSize=3
 请求params：{'pageIndex': '1', 'pageSize': '3'}
 get
 页面返回信息：{"data":{"firstIndex":1,"items":[{"month":"2018-10","device":2},{"month":"2018-09","device":6},{"month":"2018-08","device":36}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":7},"rcode":0,"rinfo":"操作成功"}
-用例测试结果： d_2----&gt;pass
+用例测试结果： 总览_G1----&gt;pass
 检查点-&gt;:操作成功
 返回实际结果-&gt;:{"data":{"firstIndex":1,"items":[{"month":"2018-10","device":2},{"month":"2018-09","device":6},{"month":"2018-08","device":36}],"lastIndex":3,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":3,"preIndex":1,"rowsCount":7},"rcode":0,"rinfo":"操作成功"}
 
@@ -295,10 +295,42 @@ get
     </td>
 </tr>
 
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_api_3: dict() -> new empty dictionary</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: ******正在执行用例：-----总览_G2-----******
+请求方式：get，请求url：http://api.chebaotec.com/washingmanage/n/business/user/month?pageIndex=1&amp;pageSize=3
+请求params：{'pageIndex': '1', 'pageSize': '3'}
+get
+页面返回信息：{"data":{"firstIndex":1,"items":[{"month":"2018-11","user":3},{"month":"2018-10","user":5},{"month":"2018-09","user":363}],"lastIndex":4,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":4,"preIndex":1,"rowsCount":10},"rcode":0,"rinfo":"操作成功"}
+用例测试结果： 总览_G2----&gt;pass
+检查点-&gt;:操作成功
+返回实际结果-&gt;:{"data":{"firstIndex":1,"items":[{"month":"2018-11","user":3},{"month":"2018-10","user":5},{"month":"2018-09","user":363}],"lastIndex":4,"nextIndex":1,"pageIndex":1,"pageSize":3,"pagesCount":4,"preIndex":1,"rowsCount":10},"rcode":0,"rinfo":"操作成功"}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>2</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
